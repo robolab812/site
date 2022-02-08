@@ -109,11 +109,25 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
+
+```c#
+BigInteger result = 1;
+
+while (exponent > 0)
+{
+    if (exponent % 2 == 0)
+    {
+        @base *= @base;
+        exponent /= 2;
+    }
+    else
+    {
+        result *= @base;
+        exponent--;
+    }
+}
+```
+
 
 
 ### There's a horizontal rule below this.
