@@ -4,3 +4,5 @@ encoding: utf-8
 permalink: pretty
 highlighter: rouge
 markdown: kramdown
+
+theme: jekyll-theme-hacker
