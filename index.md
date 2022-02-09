@@ -82,25 +82,6 @@ git status
 git add
 git commit
 ```
-{% highlight js %}
-
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-
-{% endhighlight %}
-
-
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
 
 ```ruby
 def print_hi(name)
