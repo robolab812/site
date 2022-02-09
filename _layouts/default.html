@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />   
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/ft-syntax-highlight.min.css" /> 
+    
+
+	  
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  
+  
+  </head>
+  <body>
+
+  <div class="header">
+	{% if page.title %}{{ page.title | escape }}{% else %}}{{ site.title | escape }}{% endif %}
+  </div>
+  <div class="nav">
+    {{ navbar }}
+  </div>
+
+  <main>
+    {{ content }}
+  </main>
+
+<div class="footer">
+  This site was built using [GitHub Pages](https://pages.github.com/).
+</div>
+
+  </body>
+</html>
